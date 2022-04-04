@@ -283,7 +283,7 @@ footer{
     line-height: 25px;
     color: var(--White);
 }
-@media only screen and (max-width:770px) {
+@media only screen and (max-width:970px) {
     .intro, .contend{
         max-width: 100%;
         box-sizing: border-box;
@@ -343,7 +343,7 @@ footer{
             top: 0;
     }
     .contend_col{
-        width: 753px;
+        width:100%;
         margin: 0;
         padding: 0;
     }
@@ -380,7 +380,7 @@ footer{
         border:  solid var(--drak_green);
     }
 }
-@media only screen and (max-width:375px) {
+@media only screen and (max-width:475px) {
     .nav{
         width: 100%;
     }
@@ -420,7 +420,7 @@ footer{
        transform: translateY(-4px);
     }
     .intro{
-        width: 360px;
+        width: 100%;
         padding: 0 5px;
     }
     .intro__title{
@@ -432,7 +432,7 @@ footer{
         width: 300px;
     }
     .intro__img_icon{
-        right: 0px;
+        right:30px;
     }
     .team{
         padding: 0 24px;
