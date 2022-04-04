@@ -1,0 +1,70 @@
+
+/* livvic-600 - latin */
+@font-face {
+    font-family: 'Livvic';
+    font-style: normal;
+    font-weight: 600;
+    font-display: swap;
+    src: local(''),
+         url('../fonts/livvic-v11-latin-600.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/livvic-v11-latin-600.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+
+  /* livvic-700 - latin */
+  @font-face {
+    font-family: 'Livvic';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: local(''),
+         url('../fonts/livvic-v11-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/livvic-v11-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family:'Livvic', serif;
+}
+h1, h2, h2, h3, h4, h5, h6{
+    font-weight: 700;
+}
+ul li{
+    list-style-type: none;
+}
+a{
+    display: inline-block;
+    text-decoration: none;
+}
+img{
+    display: block;
+}
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.btn_link{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    padding: 10px 32px;
+    color: var(--White);
+    background-color: transparent;
+    border: 2px solid var(--White);
+    border-radius: 24px;
+    transition: 0.3s;
+}
+.btn_link:hover{
+    background-color: var(--White);
+    color: var(--drak_green);
+}
+.btn_link:active{
+    background-color: transparent;
+    border: solid var(--jungle_green);
+    color: var(--jungle_green);
+}
