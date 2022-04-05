@@ -513,6 +513,9 @@ footer{
         width: 300px;
         margin: 0 auto;
     }
+    .ready{
+    
+    }
 }
 @media only screen and (max-width:385px) {
     .intro__img_icon{
@@ -522,6 +525,18 @@ footer{
 @media only screen and (max-width:370px) {
     .intro__img_icon{
       right:0;
+    }
+    .ready_box{
+        width: 140px;
+    }
+    .btn{
+        padding: 8px 20px;
+    }
+    .footr_menu{
+        flex-direction: column;
+    } 
+    .footer_item{
+        margin: 0;
     }
 }
 @media only screen and (max-width:360px) {
