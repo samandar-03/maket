@@ -540,6 +540,11 @@ footer{
     }
 }
 @media only screen and (max-width:360px) {
+    .intro__title{
+        font-size: 32px;
+        width: 170px;
+        line-height: 35px;
+    }
     .list__item__box__text{
         width: 250px;
         margin: 0 auto;
@@ -547,6 +552,9 @@ footer{
     .col__list__item{
         margin: 0;
         padding: 10px;
+    }
+    .contend_col_title{
+        font-size: 30px;
     }
     .ready_box{
         width: 250px;
